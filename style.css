@@ -1,0 +1,121 @@
+/*p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-colour; white
+}*/
+
+/*#divID something that only gets used once
+
+.divCLASS something used multiple times */
+
+
+.header {
+    padding: 0px; 
+    text-align:left
+    color #c09984;
+    background-color: white;
+    text-align: center;
+}
+
+    .header h1 {
+    font-size: 60px;
+    text-align: center;
+    }
+
+.navbar {
+    font-size: 20px; 
+    overflow: hidden;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar a {
+    float: left;
+    display:block;
+    color:white;
+    text-align:center;
+    padding: 20px 30px
+}
+
+.navbar a.right {
+    float:right;
+}
+.navbar a:hover {
+    background-color: rgb(0, 0, 1);
+    color: #000;
+}
+
+*{
+    box-sizing:border-box 
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex: 70%;
+background-color:white;
+padding: 1%;
+text-align: center;
+}
+
+#demoFont {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    word-spacing: -0.2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    }
+
+.header2 {
+    padding: 1px; 
+    text-align:left;
+    background-color:#E5E3D7;
+    color: rgb(0, 0, 0);
+}
+
+.header3 {
+    padding: 1px; 
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    text-align:center;
+    background-color:#E5E3D7
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    padding: 20px; 
+    text-align: center; 
+    background: black
+  }
+
+.footer {
+    font-size: 20px; 
+    overflow: hidden;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.footer a.right {
+    float:right;
+}
+.footer a:hover {
+    background-color: rgb(0, 0, 1);
+    color: #000;
+    text-align: center;
+}
+
+.footer a {
+    float: left;
+    display:block;
+    color:white;
+    text-align:center;
+    padding: 20px 30px
+}
